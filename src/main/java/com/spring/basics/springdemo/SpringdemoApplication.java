@@ -10,7 +10,8 @@ public class SpringdemoApplication {
 	public static void main(String[] args) {
 		BinarySearchImpl b=new BinarySearchImpl(new BubbleSortAlgorithm());
 		int res=b.binarySearch(new int[] {1,25}, 3);
-		System.out.print(res);
+		System.out.println(res);
+		System.out.println();
 		//SpringApplication.run(SpringdemoApplication.class, args);
 	}
 
